@@ -31,4 +31,9 @@ public class Matricula {
   private Aluno aluno;
 
   private LocalDateTime dataDaMatricula = LocalDateTime.now();
+
+public void setAluno(Aluno aluno2) {
+	// TODO Auto-generated method stub
+	
+}
 }

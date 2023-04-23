@@ -1,5 +1,6 @@
 package me.dio.academia.digital.service;
 
+import me.dio.academia.digital.entity.Aluno;
 import me.dio.academia.digital.entity.Matricula;
 import me.dio.academia.digital.entity.form.MatriculaForm;
 
@@ -18,7 +19,7 @@ public interface IMatriculaService {
    * @param id - id da Matrícula que será exibida.
    * @return - Matrícula de acordo com o Id fornecido.
    */
-  Matricula get(Long id);
+  Aluno get(Long id);
 
   /**
    * Retorna todas as Matrículas que estão no banco de dados.
@@ -31,5 +32,7 @@ public interface IMatriculaService {
    * @param id - id da Matrícula que será removida.
    */
   void delete(Long id);
+
+List<Matricula> getAll(String bairro);
 
 }

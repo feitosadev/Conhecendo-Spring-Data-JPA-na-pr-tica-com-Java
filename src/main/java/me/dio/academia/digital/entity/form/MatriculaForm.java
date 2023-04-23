@@ -9,4 +9,9 @@ public class MatriculaForm {
   @Positive(message = "O id do aluno precisa ser positivo.")
   private Long alunoId;
 
+public Long getAlunoId() {
+	// TODO Auto-generated method stub
+	return null;
+}
+
 }
